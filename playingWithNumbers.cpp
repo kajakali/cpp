@@ -6,5 +6,6 @@ int main() {
     std::cout << "enter a number please: ";
     std::cin >> size;
     std::cout << "size is :" << '\n' << size << std::endl;
+    std::cout << "doubleSize is: " << (2*size) << std::endl;
     return 0;
 } 
